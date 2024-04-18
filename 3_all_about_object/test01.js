@@ -13,6 +13,8 @@ function solution(X, Y) {
         Y = Math.floor(Y/10);
     }
 
+    // add this comment, just for checking...
+
 
     for(let i=0; i<listX.length; i++) {
         if(listY.includes(listX[i])===true ) {
